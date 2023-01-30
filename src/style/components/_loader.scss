@@ -1,0 +1,29 @@
+.loader-style {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.loader-style:after {
+  content: ' ';
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #ff8577;
+  border-color: #ff8577 transparent #ff8577 transparent;
+  animation: loader-style 1.2s linear infinite;
+}
+@keyframes loader-style {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.container-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

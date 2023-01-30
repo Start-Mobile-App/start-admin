@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: start-admin
+  namespace: main
+spec:
+  selector:
+    matchLabels:
+      app: start-admin
+      tier: front-end
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: start-admin
+        tier: front-end
+    spec:
+      containers:
+      - name: reactjs
+        image: deadpoolcr.azurecr.io/start-admin-main:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        env:
+        - name: SKIP_PREFLIGHT_CHECK
+          value: "true"
+        - name: REACT_APP_API_URL
+          value: "https://api.pre.appstart.fr/"
+        - name: REACT_APP_CGU_URL 
+          value: "https://pre.appstart.fr/"

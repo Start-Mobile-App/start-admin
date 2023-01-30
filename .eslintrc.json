@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "standard"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "semi": "off",
+    "no-empty": "error",
+    "indent": "off",
+    "react/self-closing-comp": "off",
+    "react/jsx-key": "off",
+    "react/prop-types": "off",
+    "multiline-ternary": "off",
+    "array-callback-return": "off",
+    "no-extra-parens": "error",
+    "no-unused-vars": "off",
+    "eqeqeq": "off",
+    "no-console": "off",
+    "no-undef": "off",
+    "object-curly-spacing": "off",
+    "no-trailing-spaces": "off",
+    "space-before-function-paren":"off",
+    "no-lone-blocks":"off",
+    "padded-blocks":"off",
+    "react/jsx-curly-brace-presence":"off",
+    "react/jsx-handler-names":"off",
+    "react/jsx-boolean-value":"off",
+    "quotes":"off",
+    "comma-dangle":"off",
+    "no-unneeded-ternary":"off",
+    "no-useless-escape":"off",
+    "no-sequences":"off"
+  }
+}

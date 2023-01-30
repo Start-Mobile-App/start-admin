@@ -1,0 +1,157 @@
+.Icon_Sort_Table {
+  margin-left: 12px;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.IconSearch {
+  position: absolute;
+  right: 12px;
+  top: 15px;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.Icon_Sort_Table_User {
+  margin-left: 8px;
+  transform: rotate(180deg);
+}
+
+.IconAvatar {
+  // transform: rotate(90deg);
+}
+
+.icon_plus_group {
+  color: $FontColorSalmon;
+}
+
+/* .icon-close-modal {
+  color: #000000;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+} */
+
+.icon-delete-sub-category {
+  position: absolute;
+  right: 21px;
+  top: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.icon-edit-sub-category {
+  position: absolute;
+  right: 47px;
+  top: 11px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.icon-add-img {
+  position: absolute;
+  top: 21px;
+  right: 103px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.icon-close-modal {
+  transform: rotate !important;
+  align-self: flex-end;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.icon_Add_Group {
+  color: #000000;
+  margin-top: 3px;
+  margin-right: 6.5px;
+}
+
+.icon_Edit_Group {
+  position: absolute;
+  right: 35px;
+  top: 12.5px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+.icon_delete_Group {
+  position: absolute;
+  right: 12px;
+  color: rgba(0, 0, 0, 0.3);
+  top: 14px;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.icon_Valid_Group {
+  position: absolute;
+  right: 40px;
+  color: rgba(0, 0, 0, 0.3);
+  top: 13px;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.icon_Edit_Group {
+  position: absolute;
+  right: 35px;
+  top: 12.5px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.icon_delete_New_Group {
+  position: absolute;
+  right: 17px;
+  color: rgba(0, 0, 0, 0.3);
+  top: 14px;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.icon_Export {
+  margin-right: 7px;
+}
+
+.margin_icon_close {
+  margin-bottom: 15px;
+}
+
+.icon-update-group-name {
+  right: 10px;
+}
+
+.icon-update-group-name-with-invalid {
+  right: 35px;
+}
+.icon-update-group-name-classic {
+  position: absolute;
+  top: 12.5px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.icon-modify-sub-category {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.icon-sort-top {
+  margin-left: 8px;
+  transform: rotate(180deg);
+}
+.icon-sort-bottom {
+  margin-left: 8px;
+}
+.active-icon-sort {
+  color: #000000;
+}

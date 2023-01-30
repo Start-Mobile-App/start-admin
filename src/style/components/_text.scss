@@ -1,0 +1,38 @@
+.text-add-category {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 6.5px;
+}
+
+.text-add-img {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50px;
+  right: 55px;
+}
+
+.style_description_delete_group {
+  width: 607px;
+  height: 78px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 8px;
+}
+.margin-top {
+  margin-top: 7px;
+}

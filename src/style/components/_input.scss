@@ -1,0 +1,370 @@
+.AtomInput .form-control {
+  background-color: $BackgroundColorAtomInput;
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  border: none;
+  height: 40px;
+  width: 207px;
+}
+
+.AtomInput .form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 1px 1px transparent inset, 0 0 8px transparent;
+}
+
+.AtomInput .form-control::placeholder {
+  color: rgba(119, 131, 143, 0.4);
+  opacity: 1;
+}
+
+.AtomInput .InputEmail_OrganismLogin {
+  border-radius: 7px;
+  width: 270px;
+  height: 40px;
+  margin-left: 32px;
+  font-family: $FontFamilyRoboto;
+  font-size: $FontSizeButton;
+  font-size: 14px;
+  line-height: 16, 41;
+  background: rgba(119, 131, 143, 0.1);
+  border: none;
+  font-weight: normal;
+}
+
+.Checkbox__OrganismLogin {
+  margin-left: 32px;
+  font-family: $FontFamilyRoboto;
+  font-size: 12px;
+}
+
+.AtomInput .InputPassword_OrganismLogin {
+  margin-top: 24px;
+  border-radius: 7px;
+  width: 270px;
+  height: 40px;
+  margin-left: 32px;
+  font-family: $FontFamilyRoboto;
+  font-size: $FontSizeButton;
+  font-size: 14px;
+  line-height: 16, 41;
+  background: rgba(119, 131, 143, 0.1);
+  border: none;
+  font-weight: normal;
+  margin-bottom: -2px;
+}
+
+.AtomSelect .form-control {
+  background: $BackgroundAtomSelect $UrlArrowAtomSelect no-repeat right 20px
+    center/12px 10px !important;
+  border-radius: 7px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.OrganismAuth_Container
+  .Checkbox__OrganismLogin
+  .containerMoleculeInput
+  .AtomCheckbox {
+  width: 16px;
+  height: 14px;
+}
+
+.table-col-checkbox .AtomCheckbox {
+  width: 12px;
+}
+
+.AtomCheckbox .form-control {
+  background-color: $CheckBoxColor;
+}
+
+.custom-control-label::before {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 0px;
+  content: '';
+  background: no-repeat 50%/50% 50%;
+}
+
+.custom-control-label::after {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  border-radius: 0px;
+  width: 12px;
+  height: 12px;
+  content: '';
+  background: no-repeat 50%/50% 50%;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: $CheckBoxColor;
+  width: 12px;
+  height: 12px;
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 0px;
+}
+
+.suggestion_AtouComplete {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: $BackgroundAtomSelect;
+  text-align: center;
+  padding-top: 8px;
+  cursor: pointer;
+  background-color: $BackgorundSuggestionsItem;
+  height: 40px;
+  width: 230px;
+}
+
+.classNameInputAutoComplete {
+  height: 40px;
+  width: 230px;
+  background: $BackgroundAtomSelect;
+  border-radius: 7px;
+  border: 0px;
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $AutoCompleteValueColor;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.AtomAutoComplete div div ul {
+  list-style-type: none;
+}
+
+.AtomAutoComplete div div ul li {
+  margin-left: -16px !important;
+}
+
+.MoleculeInput_WithLabel .AtomInput .form-control {
+  background-color: $BackgroundColorAtomInput !important;
+  border-radius: 7px;
+  padding-right: 70px;
+}
+
+.MoleculeInput_WithLabel .AtomInput .form-control::placeholder {
+  color: rgba(119, 131, 143, 0.4);
+  opacity: 1;
+}
+
+.MoleculeInput_WithLabel {
+  position: relative;
+}
+
+.First_Icon_Input_With_Label {
+  position: absolute;
+  top: 12px;
+  left: 270px;
+  cursor: pointer;
+}
+
+.Second_Icon_Input_With_Label {
+  position: absolute;
+  top: 12px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.Input_OrganismInfo {
+  width: 207px;
+  height: 40px;
+  margin-top: 12px;
+}
+
+.Form_Input_text {
+  border: 0px !important;
+  border-radius: 7px !important;
+  width: 150px;
+  height: 40px;
+}
+
+.Form_Input_text2 {
+  background-color: lightcyan !important;
+  border: 0px !important;
+  border-radius: 40px !important;
+  width: 300px;
+  height: 40px;
+}
+
+.ContainerIcon {
+  position: relative;
+}
+
+.container_input_search {
+  height: 40px;
+  width: 205px;
+}
+
+.containerMoleculeInput {
+  width: max-content;
+}
+
+.AtomSelect .input-modal-lot,
+.AtomInput .input-modal-lot,
+.AtomInput .input-modal-lot-modify-category,
+.AtomInput .input-modal-lot-sub-category {
+  background: #f2f2f2;
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  height: 40px;
+  width: 228px;
+}
+.AtomInput .input-modal-lot,
+.AtomInput .input-modal-lot-modify-category :-moz-read-only {
+  font-weight: bold;
+  color: #000000;
+}
+
+.AtomInput .input-modal-lot,
+.AtomInput .input-modal-lot-modify-category:read-only {
+  font-weight: bold;
+  color: #000000;
+}
+
+.AtomSelect .input-modal-lot {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.AtomInput .input-modal-lot {
+  margin-top: 16px;
+}
+.input-file-add-img {
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+}
+
+.AtomInput .InputGroup {
+  border-radius: 7px;
+  width: 228px;
+  height: 40px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.AtomInput .InputGroup:read-only {
+  font-weight: bold;
+  color: #000000;
+}
+
+.AtomInput .InputGroup:-moz-read-only {
+  font-weight: bold;
+  color: #000000;
+}
+
+.Input-Sous-Group {
+  margin-top: 24px;
+}
+
+.AtomInput .InputGroup::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.AtomInput .InputGroup::-moz-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.padding_input_group {
+  padding-right: 55px;
+}
+
+.AtomSelect .style-select-group {
+  width: 228px;
+  height: 40px;
+  padding-right: 42px;
+  background: $BackgroundAtomSelect;
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+.AtomInput .InputEmail_OrganismForgetPassword {
+  border-radius: 7px;
+  width: 270px;
+  height: 40px;
+  margin-left: 0px;
+  font-family: $FontFamilyRoboto;
+  font-size: $FontSizeButton;
+  font-size: 14px;
+  line-height: 16, 41;
+  background: rgba(119, 131, 143, 0.1);
+  border: none;
+  font-weight: normal;
+  margin-bottom: 17px;
+}
+
+.AtomInput .Input_Reset_Password {
+  border-radius: 7px;
+  width: 270px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-size: 14px;
+  background: rgba(119, 131, 143, 0.1);
+  border: none;
+  font-weight: normal;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.AtomInput .input-modal-add-admin {
+  width: 270px;
+}
+.title_add_admin {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #4d4644;
+  margin-bottom: 16px;
+}
+.container-input-delete-account {
+  justify-content: center;
+  align-items: center;
+  padding-top: 23px;
+  padding-left: 104px;
+  padding-right: 26px;
+  padding-bottom: 30px;
+}

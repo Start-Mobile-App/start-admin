@@ -1,0 +1,25 @@
+.OrganismHeader-Tittle {
+  @include Text-font-style(#000000, $FontFamilyRoboto, normal, bold, 36px, 41px);
+  margin-top: 39px;
+}
+
+.OrganismHeader-Avatar-Image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.OrganismHeader-Avatar-Icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.OrganismHeader-Avatar-Description {
+  @include Text-font-style(#5e6a7a,
+    $FontFamilyRoboto,
+    normal,
+    normal,
+    19px,
+    22px);
+  margin: 0rem 1rem 0rem 1rem;
+}

@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?3hmb1l');
+  src: url('fonts/icomoon.eot?3hmb1l#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3hmb1l') format('truetype'),
+    url('fonts/icomoon.woff?3hmb1l') format('woff'),
+    url('fonts/icomoon.svg?3hmb1l#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Success:before {
+  content: '\e90c';
+}
+.icon-Reclamation:before {
+  content: '\e928';
+}
+.icon-Camera:before {
+  content: '\e927';
+}
+.icon-Edit:before {
+  content: '\e926';
+}
+.icon-User:before {
+  content: '\e925';
+}
+.icon-Confidentiality:before {
+  content: '\e921';
+}
+.icon-Contact:before {
+  content: '\e923';
+}
+.icon-CGU:before {
+  content: '\e922';
+}
+.icon-Lot:before {
+  content: '\e924';
+}
+.icon-Document:before {
+  content: '\e920';
+}
+.icon-Download:before {
+  content: '\e91e';
+}
+.icon-Entreprise:before {
+  content: '\e915';
+}
+.icon-EnCours:before {
+  content: '\e913';
+}
+.icon-FlecheSuivi:before {
+  content: '\e914';
+}
+.icon-reloade:before {
+  content: '\e912';
+}
+.icon-FolderFacture:before {
+  content: '\e91d';
+}
+.icon-CloseIcon:before {
+  content: '\e910';
+}
+.icon-Valid:before {
+  content: '\e90e';
+}
+.icon-SortTop:before {
+  content: '\e90f';
+}
+.icon-Sort:before {
+  content: '\e90d';
+}
+.icon-Avatar:before {
+  content: '\e90a';
+}
+.icon-ClientAvatar .path1:before {
+  content: '\e916';
+  color: rgb(0, 0, 0);
+}
+.icon-ClientAvatar .path2:before {
+  content: '\e917';
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ClientAvatar .path3:before {
+  content: '\e918';
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Euro:before {
+  content: '\e919';
+}
+.icon-Folder:before {
+  content: '\e91a';
+}
+.icon-Import:before {
+  content: '\e91b';
+}
+.icon-Message:before {
+  content: '\e91c';
+}
+.icon-Pin:before {
+  content: '\e911';
+}
+.icon-Alert:before {
+  content: '\e900';
+}
+.icon-Car:before {
+  content: '\e901';
+}
+.icon-Contacts:before {
+  content: '\e902';
+}
+.icon-Demande:before {
+  content: '\e903';
+}
+.icon-Facture:before {
+  content: '\e904';
+}
+.icon-Plus:before {
+  content: '\e905';
+}
+.icon-Signaler:before {
+  content: '\e906';
+}
+.icon-Statistique:before {
+  content: '\e907';
+}
+.icon-TableauDeBordIcon:before {
+  content: '\e908';
+}
+.icon-Vector1:before {
+  content: '\e909';
+}
+.icon-FLECHE:before {
+  content: '\e90b';
+}
+.icon-Search:before {
+  content: '\e91f';
+}

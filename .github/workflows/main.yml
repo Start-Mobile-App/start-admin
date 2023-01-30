@@ -1,0 +1,17 @@
+on: push
+name: Main Workflow
+jobs:
+  sonarQubeTrigger:
+    name: SonarQube Trigger
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: main
+    - name: SonarQube Scan
+      uses: kitabisa/sonarqube-action@master
+      with:
+        host: http://pomelo-sonar-scanner.francecentral.cloudapp.azure.com/
+        login: cfe60dce2735bdd42eba91846e02624af6292671
+        projectKey: Start-Admin
+        projectName: Start-Admin

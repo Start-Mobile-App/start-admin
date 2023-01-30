@@ -1,0 +1,224 @@
+.Connexion_OrganismLogin {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  padding-top: 32px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #4d4644;
+}
+
+.error_label {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: $FontColorGris;
+}
+
+.Title_OrganismInfo {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+.Info_OrganismInfo {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: $BlackColor;
+  margin-top: 3px;
+}
+.Title_TemplateProfileModal {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: $BlackColor;
+  margin-bottom: 18px;
+}
+.Selected_TemplateProfileModal {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  width: 150px;
+  height: 28px;
+  display: flex;
+  cursor: pointer;
+  align-content: center;
+}
+
+.UnSelected_TemplateProfileModal {
+  width: 150px;
+  height: 28px;
+  display: flex;
+  cursor: pointer;
+}
+.Password_Conditions {
+  height: 10px;
+  color: $BlackColor;
+  font-family: $FontFamilyRoboto;
+  font-size: 14px;
+}
+.Password_Confirmed_Conditions {
+  height: 10px;
+  color: green;
+  font-family: 'Raleway-SemiBold';
+  font-size: 14px;
+}
+.Info_OrganismDroitAdmin {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: -1px;
+}
+
+.Title_OrganismDroitAdmin {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+.Msg_error {
+  color: red;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.default_style_text {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: $BlackColor;
+}
+
+.label_OrganismLogin {
+  font-family: $FontFamilyRoboto;
+  font-size: 12px;
+  color: #4d4644;
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 14px;
+  text-align: center;
+}
+
+.label_link_OrganismLogin {
+  font-family: $FontFamilyRoboto;
+  font-size: 12px;
+  color: #4d4644;
+  margin-top: 4px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.label_connexion_error {
+  margin-left: 32px;
+}
+
+.container_Add_Group {
+  display: flex;
+  margin-top: 13px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.label-edit-sub-category-error {
+  margin-top: 8px;
+}
+
+.error_label_group {
+  margin-top: revert;
+}
+.detail-data-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+.detail-title {
+  text-align: center;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: $black-gris-color;
+  padding-bottom: 24px;
+}
+.detail-sub-title {
+  font-family: Raleway-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b3b3b3;
+  padding-bottom: 20px;
+}
+.detail-data-name {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: $black-gris-color;
+}
+
+.detail-data-value {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: $black-gris-color;
+}
+.info-description {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: $black-gris-color;
+}
+.descriprtion-style-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label_account_error {
+  margin-left: 5px;
+}
+.label_add_admin {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: right;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}

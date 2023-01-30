@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.app }}
+  namespace: {{ .Values.project }}
+spec:
+  selector:
+    matchLabels:
+      project: {{ .Values.project }}
+      app: {{ .Values.app }}
+      tier: front-end
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        project: {{ .Values.project }}
+        app: {{ .Values.app }}
+        tier: front-end
+    spec: 
+      imagePullSecrets:
+      - name: hello
+      containers:
+      - name: reactjs
+        image: 'deadpoolcr.azurecr.io/{{ .Values.image.repo }}:{{ .Values.image.tag }}'
+        ports:
+        - containerPort: {{ .Values.containerport }} 

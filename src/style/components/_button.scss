@@ -1,0 +1,700 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn-primary {
+  border-color: transparent !important;
+}
+
+.dropdown {
+  width: 96px;
+  height: 32px;
+  position: relative;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.dropdown_new {
+  width: 96px;
+  height: 32px;
+  position: relative;
+  margin-top: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.dropdown_new:hover .dropdown_list {
+  visibility: visible;
+  opacity: 1;
+}
+
+.avatar-dropdown {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.dropdown-select {
+  width: 100%;
+  height: 100%;
+  background: $WhiteColor;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button_DropDown {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $CheckBoxColor;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.dropdown_list {
+  width: 164px;
+  height: 68px;
+  border-radius: 7px;
+  background: $BackgroundWhite;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 35px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s linear, visibility 0.2s linear;
+  z-index: 10;
+}
+
+.dropdown_list_new {
+  right: 0px;
+  width: 180px;
+}
+
+.avatar-dropdown_list {
+  width: 130px;
+  height: 68px;
+  border-radius: 7px;
+  background: $WhiteColor;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 35px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s linear, visibility 0.2s linear;
+  right: 10px;
+}
+
+.dropdown:hover .dropdown_list {
+  visibility: visible;
+  opacity: 1;
+}
+
+.item_dropdown_list {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 16px;
+  padding-top: 12px;
+  color: $AutoCompleteValueColor;
+  cursor: pointer;
+}
+
+.ItemPaginationSelected {
+  width: 16px;
+  height: 16px;
+  background: $BackgroundColorAtomButton;
+  margin-left: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.ItemPagination {
+  width: 16px;
+  height: 16px;
+  margin-left: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+  // margin-top: 4px;
+}
+
+.IconItemPagination {
+  width: 16px;
+  height: 16px;
+  margin-left: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.NumberItemPagination {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: $BlackColor;
+  display: flex;
+}
+
+.Icon_Pagination_next_Page {
+  transform: rotate(90deg);
+}
+
+.Icon_Pagination_previous_Page {
+  transform: rotate(270deg);
+}
+
+.Icon_Pagination_First_Page {
+  transform: rotate(270deg);
+  margin-left: -4px;
+}
+
+.Icon_Pagination_last_Page {
+  transform: rotate(90deg);
+  margin-left: -4px;
+}
+
+.btn_SeConnecter_OrganismLogin {
+  background: $BackgroundColorAtomButton;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  width: 270px;
+  height: 40px;
+  margin-left: 32px;
+  font-family: $FontFamilyRoboto;
+  font-size: $FontSize14;
+  font-style: normal;
+  color: $WhiteColor;
+  margin-top: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+
+  :focus {
+    outline: auto;
+  }
+}
+
+.btn_CreeUnCompte_OrganismLogin {
+  background: $BackgroundColorAtomButton;
+  margin-top: 8px;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  color: $ColorTextButton;
+  width: 270px;
+  height: 40px;
+  margin-left: 32px;
+  font-weight: 600;
+  font-family: $FontFamilyButton;
+  font-size: $FontSizeButton;
+}
+
+.avatar-dropdown:hover .avatar-dropdown_list {
+  visibility: visible;
+  opacity: 1;
+}
+
+.btn_Modifier_OrganismInfo {
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  width: 71px;
+  height: 32px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $BackgroundColorAtomButton;
+  margin-left: 280px;
+  margin-top: -18px;
+}
+
+.btn_Title_TemplateProfileModal {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $BlackColor;
+  padding-top: 6px;
+  margin-left: 10px;
+  margin-bottom: 13px;
+}
+
+.btn_Supprimer_OrganismDroitAdmin {
+  background: $BackgroundWhite;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  width: 170px;
+  height: 32px;
+  margin-left: 32px;
+  font-family: $FontFamilyButton;
+  font-size: $FontSizeButton;
+  color: $BackgroundColorAtomButton;
+  margin-top: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-left: 203px;
+}
+
+.Starter_Btn {
+  border: none;
+  // height: auto;
+  // width: auto;
+}
+
+.btn_Valider_OrganismInfo {
+  background: $BackgroundColorAtomButton;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  width: 71px;
+  height: 32px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $WhiteColor;
+  margin-left: 280px;
+  margin-top: -18px;
+}
+
+.btn_default_style {
+  background: $BackgroundColorAtomButton;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-size: 14px;
+  color: $WhiteColor;
+}
+
+.img_default_style {
+  border-radius: 50%;
+}
+
+.img_logo_default_style {
+  border-radius: 0;
+}
+
+.item_dropdown_default_style {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $AutoCompleteValueColor;
+  cursor: pointer;
+}
+
+.Container_Molecule_Avatar {
+  width: max-content;
+  height: max-content;
+  position: relative;
+  // margin-top: 8px;
+  cursor: pointer;
+}
+
+.Container_Molecule_Avatar-select {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.Container_Molecule_Avatar_list {
+  width: 164px;
+  height: 68px;
+  border-radius: 7px;
+  background: $BackgroundWhite;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+.Container_Molecule_Avatar_list_Invisible {
+  width: 164px;
+  height: 68px;
+  border-radius: 7px;
+  background: $BackgroundWhite;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+.Btn_add_user {
+  margin-left: auto;
+}
+
+.NumberItemPaginationSelected {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: $WhiteColor;
+  display: flex;
+}
+
+.button_delete {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 8px;
+  line-height: 16px;
+  color: rgba(119, 131, 143, 0.6);
+  margin-right: 8px;
+  margin-left: 8px;
+  opacity: 0.6;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.button_new {
+  background: $WhiteColor;
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  border: none;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+
+  :focus {
+    outline: auto;
+  }
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $FontColorSalmon;
+  margin-left: 4px;
+  padding-right: 8px;
+  box-shadow: none;
+}
+
+.Button_Export {
+  font-style: bold;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $FontColorGris;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.btn_classic_style {
+  background: $WhiteColor;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  border: none;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+
+  :focus {
+    outline: auto;
+  }
+}
+
+.Col_Export_User {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
+.Col_Action_Data {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.Btn_Action_Table_User {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: $FontColorGris;
+  margin-left: 8px;
+  margin-top: 8px;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.Btn_Action_Table_Lot {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: $FontColorGris;
+  margin-left: 16px;
+  margin-top: 8px;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.Active_Btn_Action_Table_Lot {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: $ActiveBtnColor;
+  margin-left: 16px;
+  margin-top: 8px;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.btn-validation-modal {
+  background: #ff8577;
+  box-shadow: 0px 4px 20px rgba(255, 133, 119, 0.2);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  width: 125px;
+  height: 40px;
+}
+
+.btn-cancel-delete {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(255, 133, 119, 0.2);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ff8577;
+  width: 84px;
+  height: 40px;
+}
+.btn-confirm-delete {
+  background: #ff8577;
+  box-shadow: 0px 4px 20px rgba(255, 133, 119, 0.2);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  width: 84px;
+  height: 40px;
+}
+.btn_Valid_Add_Group {
+  background: $BackgroundColorAtomButton;
+  -webkit-box-shadow: 0px 4px 20px rgba(255, 133, 119, 0.2);
+  box-shadow: 0px 4px 20px rgba(255, 133, 119, 0.2);
+  border-radius: 7px;
+  width: 125px;
+  height: 40px;
+  font-family: $FontFamilyRoboto;
+  font-size: $FontSize14;
+  font-style: normal;
+  color: $WhiteColor;
+  margin-top: 24px;
+  line-height: 16px;
+  font-weight: bold;
+  border: none;
+  :focus {
+    outline: auto;
+  }
+}
+.active_button {
+  color: $ActiveBtnColor;
+  opacity: 1;
+}
+
+.cancel_button_group {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  width: 224px;
+  height: 40px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.valid_button_group {
+  background: #ff8577;
+  box-shadow: 0px 4px 20px rgba(255, 133, 119, 0.2);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  width: 224px;
+  height: 40px;
+}
+
+.detail_btn_modify {
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 8px;
+  color: #ff8577;
+  cursor: pointer;
+}
+.button-export {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  width: 90px;
+  height: 32px;
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.second-button {
+  margin-right: 0px;
+}
+.Col_Action_CGU {
+  display: flex;
+  justify-content: flex-end;
+}
+.button_update {
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  text-align: center;
+  color: #ff8577;
+  width: 117px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+.btn-active-upadte {
+  background: #ff8577;
+  box-shadow: 0px 4px 20px rgba(255, 133, 119, 0.2);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  width: 125px;
+  height: 40px;
+}
+.btn_SeConnecter_OrganismChangePassword {
+  background: $BackgroundColorAtomButton;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  width: 270px;
+  height: 40px;
+  font-family: $FontFamilyRoboto;
+  font-size: $FontSize14;
+  font-style: normal;
+  color: $WhiteColor;
+  margin-top: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+
+  :focus {
+    outline: auto;
+  }
+}
+.btn_add_admin {
+  background: white;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 270px;
+  height: 40px;
+  margin-left: 32px;
+  font-family: 'Arial';
+  font-size: 14px;
+  color: #ff8577;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-left: 0px;
+}
+.btn-update-account {
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: $BackgroundColorAtomButton;
+  padding: 8px;
+}
+.btn-submit-account {
+  background: $BackgroundColorAtomButton;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  font-family: $FontFamilyRoboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: $WhiteColor;
+  padding: 8px;
+  margin-top: 4px;
+}
