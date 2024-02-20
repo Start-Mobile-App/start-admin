@@ -314,7 +314,7 @@ export default function User (props) {
     listElementChecked.map((el, i) => {
       if (el === true && data[i]) {
         list.push({
-          company: data[i].entreprise.name,
+          company: (data[i].entreprise && data[i].entreprise.name) || null,
           firstName: data[i].firstName,
           lastName: data[i].lastName,
           role: data[i].role,
@@ -323,12 +323,19 @@ export default function User (props) {
           professionalAddress: data[i].professionalAddress,
           tel: data[i].tel,
           mail: data[i].mail,
-          professionalMail: data[i].entreprise.mail,
-          professionalTel: data[i].entreprise.tel,
-          headOffice: data[i].entreprise.headOffice,
-          siret: new Intl.NumberFormat().format(
-            data[i].entreprise.siret.toString()
-          )
+          professionalMail:
+            (data[i].entreprise && data[i].entreprise.mail) || null,
+          professionalTel:
+            (data[i].entreprise && data[i].entreprise.tel) || null,
+          headOffice:
+            (data[i].entreprise && data[i].entreprise.headOffice) || null,
+          siret:
+            (data[i].entreprise &&
+              data[i].entreprise.siret &&
+              new Intl.NumberFormat().format(
+                data[i].entreprise.siret.toString()
+              )) ||
+            null
         });
       }
     });
